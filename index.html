@@ -1,5 +1,4 @@
 <html>
-
 <head>
 
   <meta charset="UTF-8">
@@ -16,6 +15,21 @@
 
 <body>
 
+<div id="clock">8:23PM</div>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.js"></script>
+<script>
+  const clock = document.getElementById('clock');
+  function update(){
+      const now = moment();
+      const readIt = now.format('hh:mm:ss A')
+      clock.textContent = readIt;
+
+  }
+  setInterval(update,1000
+  );
+  update();
+</script>
+
     <header class="container">
       <h1 class="box">
         Wikipeddia
@@ -27,7 +41,6 @@
         <button style="background-color: grey" >
           Search
         </button>
-
 
 
       </form>

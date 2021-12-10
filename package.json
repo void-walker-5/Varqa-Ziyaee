@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "name": "assignment7",
+  "description": "assignment7",
+  "version": "2.2.2",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "bro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/void-walker-5/Varqa-Ziyaee.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/void-walker-5/Varqa-Ziyaee/issues"
+  },
+  "homepage": "https://github.com/void-walker-5/Varqa-Ziyaee#readme",
+  "keywords": []
+}

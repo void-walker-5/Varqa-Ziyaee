@@ -5,6 +5,7 @@
     margin-right: 20px;
 
 }
+
 body{
 background: gray;
 }
@@ -102,4 +103,14 @@ video{
 button{
     height: 30px;
     margin-top: 25px;
+}
+
+#clock{
+
+    font-size: 50px;
+    background-color: darkslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
